@@ -1,22 +1,23 @@
 Metric: Mean squared logarithmic error regression loss
 
-Baseline: 1.2546011280365494 %
-
+	+--------------------------------+
+	|  Baseline: 1.2546011280365494  |
+	+--------------------------------+
 
 
 ##### Before Tuning hyperparameters #####
 
-- RandomForestRegressor: 1.3315411870563385 %
+- RandomForestRegressor: 1.3315411870563385
 
-- LGBMRegressor: 1.2445568891150853 %
+- LGBMRegressor: 1.2445568891150853
 
-- LinearRegression: 1.2283014526242966 %
+- LinearRegression: 1.2283014526242966
 
-- Lasso: 1.242464532053409 %
+- Lasso: 1.242464532053409
 
-- Ridge: 1.2282035416101906 %
+- Ridge: 1.2282035416101906
 
-- BayesianRidge: 1.2282323076913995 %
+- BayesianRidge: 1.2282323076913995
 
 
->>> Aall results worsened after one hot encoding of the product
+>>> All results worsened after one hot encoding of the product
