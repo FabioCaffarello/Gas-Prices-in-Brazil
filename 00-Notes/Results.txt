@@ -17,3 +17,6 @@ Baseline: 1.2546011280365494 %
 - Ridge: 1.2282035416101906 %
 
 - BayesianRidge: 1.2282323076913995 %
+
+
+>>> Aall results worsened after one hot encoding of the product
