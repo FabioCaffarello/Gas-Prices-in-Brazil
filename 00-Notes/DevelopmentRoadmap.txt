@@ -1,0 +1,25 @@
+## NoteBook 01 - Baseline
+
+	A baseline metric was calculated
+	
+## NoteBook 02 - TargetAnalysis
+
+	The target was analyzed by being a stationary series or not and if not, check how to make it stationary
+	
+## NoteBook 03 - ModelsSelection
+
+	With simple features some models were studied by the same error metric of the baseline
+	
+## NoteBook 04 - ModelsSelectionOneHotEncoding
+
+	One hot encoding method was implemented for the product
+	>> Conclusion: All models are worse
+	
+Next Steps:
+
+- Selecionar um modelo para escolher as features a fim de melhorar a modelagem
+	-Features from internal and external data
+
+- Tuning the Hyperparameters
+
+- Determine a more robust Validation
