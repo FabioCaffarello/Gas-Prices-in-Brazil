@@ -15,9 +15,15 @@
 	One hot encoding method was implemented for the product
 	>> Conclusion: All models are worse
 	
-Next Steps:
+## NoteBook 05 - FinancialEconomicData
+	
+	Economic data collected from Quandl
+	
+	
+	
+>>>>ext Steps:
 
-- Selecionar um modelo para escolher as features a fim de melhorar a modelagem
+- Select a model to choose the features in order to improve modeling
 	-Features from internal and external data
 
 - Tuning the Hyperparameters
