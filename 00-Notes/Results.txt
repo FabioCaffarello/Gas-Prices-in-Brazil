@@ -1,11 +1,13 @@
 Metric: Mean squared logarithmic error regression loss
 
+>> Product: GASOLINA COMUM
 	+--------------------------------+
-	|  Baseline: 1.2546011280365494  |
+	|  Baseline: 0.985855761784111   |
 	+--------------------------------+
 
 
 ##### Before Tuning hyperparameters #####
+
 
 - RandomForestRegressor: 1.3315411870563385
 
@@ -20,4 +22,204 @@ Metric: Mean squared logarithmic error regression loss
 - BayesianRidge: 1.2282323076913995
 
 
+
 >>> All results worsened after one hot encoding of the product
+
+
+
+##### With More Features #####
+
+>> Mean
+
+	>> Oil_mean
+
+		- RandomForestRegressor: 1.2866398181862344
+
+		- LGBMRegressor: 1.2448071015890163
+
+		- LinearRegression: 1.228815883998097
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2287151377436494
+
+		- BayesianRidge: 1.2287307551701383
+
+
+
+	>> Selic_mean
+
+		- RandomForestRegressor: 1.2792433094643112
+
+		- LGBMRegressor: 1.24687625343273
+
+		- LinearRegression: 1.2281453284238995
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.228045653250789
+
+		- BayesianRidge: 1.228061058658177
+
+
+
+	>> Dollar_mean
+
+		- RandomForestRegressor: 1.4186284326943193
+
+		- LGBMRegressor: 1.244610246051217
+
+		- LinearRegression: 1.2334321453146329
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2333654420921518
+
+		- BayesianRidge: 1.2333757759510746
+
+
+
+	>> Gold_mean
+
+		- RandomForestRegressor: 1.270209734816604
+
+		- LGBMRegressor: 1.2463765895138827
+
+		- LinearRegression: 1.2298000629308958
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2296660277720766
+
+		- BayesianRidge: 1.2296867451881002
+		
+			
+>> Median
+
+	>> Oil_median
+
+		- RandomForestRegressor: 1.283497923136889
+
+		- LGBMRegressor: 1.244989686078617
+
+		- LinearRegression: 1.2288005684057124
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2287001340163792
+
+		- BayesianRidge: 1.2287157009846803
+
+
+
+	>> Selic_median
+
+		- RandomForestRegressor: 1.2789374493365706
+
+		- LGBMRegressor: 1.246481932120887
+
+		- LinearRegression: 1.2280698159299106
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2279706680593858
+
+		- BayesianRidge: 1.227985984314498
+
+
+
+	>> Dollar_median
+
+		- RandomForestRegressor: 1.3694124305038404
+
+		- LGBMRegressor: 1.2445599861168022
+
+		- LinearRegression: 1.2334729681525285
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.233406467356493
+
+		- BayesianRidge: 1.2334167700153669
+
+
+
+	>> Gold_median
+
+		- RandomForestRegressor: 1.275689607197523
+
+		- LGBMRegressor: 1.246142586816572
+
+		- LinearRegression: 1.2296834561138372
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2295510034425305
+
+		- BayesianRidge: 1.2295714753177738
+
+
+
+>> Std
+
+	>> Oil_std
+
+		- RandomForestRegressor: 1.3146691231670369
+
+		- LGBMRegressor: 1.244301118663716
+
+		- LinearRegression: 1.2272957045420125
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.227203587411568
+
+		- BayesianRidge: 1.227217657060644
+
+
+
+	>> Selic_std
+
+		- RandomForestRegressor: 1.3343007177187438
+
+		- LGBMRegressor: 1.2445568891150853
+
+		- LinearRegression: 1.228309310325514
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.228210858394005
+
+		- BayesianRidge: 1.2282261265401269
+
+
+
+	>> Dollar_std
+
+		- RandomForestRegressor: 1.301449300850134
+
+		- LGBMRegressor: 1.2452086147699801
+
+		- LinearRegression: 1.2287310606533035
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2285763623084778
+
+		- BayesianRidge: 1.2286021086154535
+
+
+
+	>> Gold_std
+
+		- RandomForestRegressor: 1.3048081573930772
+
+		- LGBMRegressor: 1.2453707225870696
+
+		- LinearRegression: 1.227910624512856
+
+		- Lasso: 1.242464532053409
+
+		- Ridge: 1.2278077426148049
+
+		- BayesianRidge: 1.2278237770014067
