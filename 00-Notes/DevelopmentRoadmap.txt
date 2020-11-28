@@ -6,25 +6,25 @@
 
 	The target was analyzed by being a stationary series or not and if not, check how to make it stationary
 	
-## NoteBook 03 - ModelsSelection
+## NoteBook 03 - FirstModels
 
-	With simple features some models were studied by the same error metric of the baseline
-	
-## NoteBook 04 - ModelsSelectionOneHotEncoding
-
-	One hot encoding method was implemented for the product
+	With features of the oil data some models were studied by the same error metric of the baseline
 	>> Conclusion: All models are worse
 	
-## NoteBook 05 - FinancialEconomicData
-	
+## NoteBook 04 - FinancialEconomicData
+
 	Economic data collected from Quandl
 	
 	
+## NoteBook 05 - Features
 	
->>>>ext Steps:
+	Model Select: LGBMRegressor
+	implementation of features and their evaluation
 
-- Select a model to choose the features in order to improve modeling
-	-Features from internal and external data
+			
+	
+>>>>Next Steps:
+
 
 - Tuning the Hyperparameters
 
