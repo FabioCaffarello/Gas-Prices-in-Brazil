@@ -20,12 +20,10 @@
 	
 	Model Select: LGBMRegressor
 	implementation of features and their evaluation
+	Results: Best Features ['Gold_mean', 'Selic_std', 'year', 'Mean_Price_Margin']
 
 			
-	
->>>>Next Steps:
+## NoteBook 05 - HyperpareameterTuning
 
-
-- Tuning the Hyperparameters
-
-- Determine a more robust Validation
+	Model Select: LGBMRegressor
+	>> automate hyperparameter tuning: skopt 

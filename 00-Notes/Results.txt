@@ -20,3 +20,10 @@ Metric: Mean squared logarithmic error regression loss
 - Ridge: 1.0995291008925445
 
 - BayesianRidge: 1.1023114612438818
+
+>>> LGBMRegressor with better Features: 0.9793560848165536 (Without One Hot Encoding)
+
+
+##### After Tuning hyperparameters #####
+
+>>> LGBMRegressor with better Features: 0.9773431227963586 (Without One Hot Encoding)
