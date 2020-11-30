@@ -13,3 +13,23 @@
 - The baseline was determined with the simple metric of stating that the price of the current week is iqual to that of the previous week
 - **Notebook:** <a target="_blank" href="https://github.com/FabioCaffarello/Gas-Prices-in-Brazil/blob/master/02-NoteBooks/01-Baseline.ipynb">Baseline</a>
 
+# Model Select
+
+**LGBMRegressor**
+
+- LightGBM extends the gradient boosting algorithm by adding a type of automatic feature selection as well as focusing on boosting examples with larger gradients. This can result in a dramatic speedup of training and improved predictive performance.
+
+# Features Selection
+
+**Gold mean:** obtained through the quandl api
+**Mean Price Margin ratio:** original dataset >> average price margin ratio for the previous week's average price margin minus the average price margin of two weeks ago
+**month cosine:** original dataset >> the numerical value of the month encoded by the cosine function
+**ratio of current average price to Dollar:** obtained through the quandl api and original dataset >> Ratio current average price to average Dollar price
+
+# Hyperparameter Tuning
+
+>> The hyperparameter tuning was performed automatically through the skopt library, which performs the bayesian optimization method
+
+# Conclusion
+
+>> The baseline was overcome and the project can be improved with the study and implementation of other features. It can also be improved with a more robust ouco validation such as repeated Holdout or even a prequential sliding validation.
